@@ -4371,17 +4371,3 @@ CreatureList["tiny servant"] = { // Stats for the Tiny Servant spell (contains c
 		description : ""
 	}]
 };
-
-// Add weapons
-WeaponsList["Harpoon"] = {
-	regExpSearch : /^(?=.*harpoon).*$/i,
-	name : "Harpoon",
-	source : [["TA", 1]],
-	list : "melee",
-  ability : 1,
-	type : "Simple",
-	damage : [2, 6, "piercing"],
-	range : "Melee, 20/60 ft",
-	description : "Up to huge creature hit must pass Str contest or be pulled up to 20 ft closer",
-	abilitytodamage : true,
-};
